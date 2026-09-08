@@ -50,7 +50,10 @@ pnpm dev      # servidor + web + backoffice
 | [docs/api.md](docs/api.md) | referência da API REST |
 | [docs/desenvolvimento.md](docs/desenvolvimento.md) | rodar, testar e compilar cada parte |
 | [docs/problemas.md](docs/problemas.md) | o que costuma dar errado, e o motivo |
-| [docs/identidade-ecossistema.md](docs/identidade-ecossistema.md) | convenção de nomes e identidade visual do Ishtar Sink, ecossistema de que o Nebula é o primeiro produto |
+
+A convenção de nomes e a identidade visual do ecossistema **Ishtar Sink**, de que o Nebula é o
+primeiro produto, vivem fora deste repositório:
+[Ishtar-Sink/.github](https://github.com/Ishtar-Sink/.github/blob/main/docs/identidade-ecossistema.md).
 
 ## Estrutura
 
@@ -75,6 +78,16 @@ mesma raiz.
 
 ## Licença e conteúdo
 
+Distribuído sob a **[AGPL-3.0](LICENSE)**. Na prática: use, estude, modifique e redistribua à
+vontade — mas se você rodar uma versão modificada como serviço acessível pela rede, precisa
+oferecer o código dessa versão a quem a usa. É a licença escolhida justamente porque este é um
+projeto para você hospedar, e ela impede que alguém feche o que nasceu aberto.
+
 O catálogo de demonstração é sintetizado por `tools/generate-catalog.mjs` a partir de
 osciladores, ruído e envelopes — nada é sampleado, então o repositório não carrega material
 licenciado de terceiros.
+
+O importador do backoffice baixa o que você mandar; **decidir o que pode ser baixado é sua
+parte.** Ele existe para material sem direitos autorais — domínio público, Creative Commons,
+bibliotecas de áudio livres, obra própria. Nenhuma ferramenta externa (`yt-dlp`, `ffmpeg`) é
+distribuída aqui.
