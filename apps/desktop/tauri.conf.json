@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Nebula",
+  "version": "1.0.0",
+  "identifier": "com.nebula.player",
+  "build": {
+    "frontendDist": "../web/dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "pnpm --filter @nebula/web dev",
+    "beforeBuildCommand": "pnpm --filter @nebula/web build"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Nebula",
+        "width": 1240,
+        "height": 820,
+        "minWidth": 900,
+        "minHeight": 580,
+        "resizable": true,
+        "theme": "Dark",
+        "backgroundColor": "#0A0713"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis",
+      "app",
+      "dmg"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ]
+  }
+}

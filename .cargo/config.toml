@@ -1,0 +1,11 @@
+# Cross-compiling the desktop player to Windows from Linux/WSL.
+#
+# Requires the mingw-w64 toolchain on the host:
+#   sudo apt install mingw-w64
+# plus the Rust target:
+#   rustup target add x86_64-pc-windows-gnu
+#
+# Build with: cargo build --release -p nebula-desktop --target x86_64-pc-windows-gnu
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
+ar = "x86_64-w64-mingw32-ar"

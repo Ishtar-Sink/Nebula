@@ -1,0 +1,26 @@
+{
+  "name": "nebula",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "server": "pnpm --filter @nebula/server dev",
+    "web": "pnpm --filter @nebula/web dev",
+    "admin": "pnpm --filter @nebula/admin dev",
+    "mobile": "pnpm --filter @nebula/mobile start",
+    "desktop": "pnpm --filter @nebula/web build && cargo run --release -p nebula-desktop",
+    "seed": "node tools/generate-catalog.mjs",
+    "icons": "node tools/make-icon.mjs apps/desktop/icons/32x32.png 32 && node tools/make-icon.mjs apps/desktop/icons/128x128.png 128 && node tools/make-icon.mjs apps/desktop/icons/128x128@2x.png 256 && node tools/make-icon.mjs apps/desktop/icons/icon.png 512 && node tools/make-ico.mjs apps/desktop/icons/icon.ico 16 32 48 64 128 256",
+    "build:web": "pnpm --filter @nebula/web build",
+    "build:desktop": "pnpm --filter @nebula/web build && cargo build --release -p nebula-desktop",
+    "desktop:windows": "bash tools/build-windows.sh",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "ws": "^8.18.0"
+  }
+}

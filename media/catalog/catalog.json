@@ -1,0 +1,136 @@
+[
+  {
+    "id": "cat:violeta-profunda-primeira-luz",
+    "title": "Primeira Luz",
+    "artist": "Aurora Lume",
+    "album": "Violeta Profunda",
+    "durationMs": 95308,
+    "file": "violeta-profunda-primeira-luz.wav"
+  },
+  {
+    "id": "cat:violeta-profunda-anoitecer-em-roxo",
+    "title": "Anoitecer em Roxo",
+    "artist": "Aurora Lume",
+    "album": "Violeta Profunda",
+    "durationMs": 76846,
+    "file": "violeta-profunda-anoitecer-em-roxo.wav"
+  },
+  {
+    "id": "cat:violeta-profunda-constelacao-interna",
+    "title": "Constelação Interna",
+    "artist": "Aurora Lume",
+    "album": "Violeta Profunda",
+    "durationMs": 86077,
+    "file": "violeta-profunda-constelacao-interna.wav"
+  },
+  {
+    "id": "cat:aoba-na-raba-toma-buttercup",
+    "title": "NA RABA TOMA BUTTERCUP",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 144168,
+    "file": "aoba-na-raba-toma-buttercup.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=DaPAqcpvUzA",
+    "sourceId": "youtube:DaPAqcpvUzA"
+  },
+  {
+    "id": "cat:aoba-mc-poze-nos-anos-80-pt-iii",
+    "title": "MC POZE NOS ANOS 80 pt. III",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 174096,
+    "file": "aoba-mc-poze-nos-anos-80-pt-iii.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=zgezo5I3waM",
+    "sourceId": "youtube:zgezo5I3waM"
+  },
+  {
+    "id": "cat:aoba-mc-poze-nos-anos-90",
+    "title": "MC POZE NOS ANOS 90",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 234720,
+    "file": "aoba-mc-poze-nos-anos-90.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=Px4bbFsf4f0",
+    "sourceId": "youtube:Px4bbFsf4f0"
+  },
+  {
+    "id": "cat:aoba-doki-doki-mc-poze-club",
+    "title": "DOKI DOKI MC POZE CLUB",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 110712,
+    "file": "aoba-doki-doki-mc-poze-club.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=h5v5jUtlgf8",
+    "sourceId": "youtube:h5v5jUtlgf8"
+  },
+  {
+    "id": "cat:aoba-shake-it-bololo-ft-classics-of-mpb",
+    "title": "Shake It Bololô ft. Classics of MPB",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 216048,
+    "file": "aoba-shake-it-bololo-ft-classics-of-mpb.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=oowBXzfcl90",
+    "sourceId": "youtube:oowBXzfcl90"
+  },
+  {
+    "id": "cat:aoba-mc-poze-nos-anos-80-pt-ii",
+    "title": "MC POZE NOS ANOS 80 pt. II",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 136008,
+    "file": "aoba-mc-poze-nos-anos-80-pt-ii.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=lTwessnK0hQ",
+    "sourceId": "youtube:lTwessnK0hQ"
+  },
+  {
+    "id": "cat:aoba-doki-doki-popotao-club",
+    "title": "DOKI DOKI POPOTÃO CLUB",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 130896,
+    "file": "aoba-doki-doki-popotao-club.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=PsjWKcLeUFE",
+    "sourceId": "youtube:PsjWKcLeUFE"
+  },
+  {
+    "id": "cat:aoba-salve-essa-musica-para-ouvir-no-natal-com-sua-familia",
+    "title": "salve essa música para ouvir no natal com sua família",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 142608,
+    "file": "aoba-salve-essa-musica-para-ouvir-no-natal-com-sua-familia.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=5wChS10lM0M",
+    "sourceId": "youtube:5wChS10lM0M"
+  },
+  {
+    "id": "cat:aoba-say-so-x-vida-louca-leod-mashup",
+    "title": "SAY SO x VIDA LOUCA | LEOD MASHUP",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 123144,
+    "file": "aoba-say-so-x-vida-louca-leod-mashup.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=ipn7AwCNTI8",
+    "sourceId": "youtube:ipn7AwCNTI8"
+  },
+  {
+    "id": "cat:aoba-cheiro-de-tame-impala-leod",
+    "title": "CHEIRO DE TAME IMPALA | LEOD",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 144552,
+    "file": "aoba-cheiro-de-tame-impala-leod.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=ERNMvLI4CM8",
+    "sourceId": "youtube:ERNMvLI4CM8"
+  },
+  {
+    "id": "cat:aoba-tim-impala-extended-leod",
+    "title": "TIM IMPALA (EXTENDED) | LEOD",
+    "artist": "NewRetroWave",
+    "album": "Aoba",
+    "durationMs": 134448,
+    "file": "aoba-tim-impala-extended-leod.mp3",
+    "sourceUrl": "https://www.youtube.com/watch?v=i4z_bE0A8xQ",
+    "sourceId": "youtube:i4z_bE0A8xQ"
+  }
+]

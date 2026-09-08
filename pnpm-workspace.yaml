@@ -1,0 +1,14 @@
+packages:
+  - "apps/server"
+  - "apps/web"
+  - "apps/admin"
+  - "apps/mobile"
+  - "packages/*"
+
+# Expo's Metro bundler resolves modules by walking node_modules directories, which does not
+# cope with pnpm's default symlinked layout. A hoisted (npm-like) tree keeps Metro working
+# while the workspace links (@nebula/*) stay intact.
+nodeLinker: hoisted
+
+allowBuilds:
+  esbuild: true

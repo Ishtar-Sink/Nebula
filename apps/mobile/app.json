@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Nebula",
+    "slug": "nebula",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "nebula",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0713",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nebula.player",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "NSAppTransportSecurity": { "NSAllowsArbitraryLoads": true }
+      }
+    },
+    "android": {
+      "package": "com.nebula.player",
+      "usesCleartextTraffic": true,
+      "permissions": ["INTERNET", "FOREGROUND_SERVICE", "FOREGROUND_SERVICE_MEDIA_PLAYBACK"],
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      ["expo-audio", { "microphonePermission": false }]
+    ]
+  }
+}

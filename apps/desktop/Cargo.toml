@@ -1,0 +1,21 @@
+[package]
+name = "nebula-desktop"
+version = "1.0.0"
+edition = "2021"
+description = "Nebula desktop player — Tauri shell around the Nebula web player"
+
+[features]
+# Tauri decides dev-vs-production from this feature, not from the cargo profile:
+# without it the webview loads `devUrl` (the Vite server) instead of the embedded
+# frontend. The Tauri CLI passes it on `tauri build`; we build with plain cargo, so it
+# is on by default here. Use --no-default-features to run against a live Vite server.
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
